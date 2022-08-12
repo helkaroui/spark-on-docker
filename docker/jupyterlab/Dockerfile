@@ -45,6 +45,8 @@ RUN apt-get install -y ca-certificates-java --no-install-recommends && \
 
 # -- Runtime
 
+USER root
+
 EXPOSE 8888
 
 WORKDIR ${SHARED_WORKSPACE}

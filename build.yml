@@ -3,4 +3,6 @@ applications:
   jupyterlab: "3.3.0"
 build:
   build_spark: "true"
+  push_spark: "true"
   build_jupyterlab: "true"
+  push_jupyterlab: "true"
